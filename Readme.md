@@ -4,11 +4,12 @@
 
 # Attention
 1. Don't forget `e = e->next;` at the end of while
-2.
-
-	if(startNode.dist==-1)
+2. This command is also important when doing the BellmanFord. Overflow occurs when we add things to -1.
+```
+if(startNode.dist==-1)
 	continue;
+```
 
-This command is also important when doing the BellmanFord. Overflow occurs when we add things to -1.
+
 
 
